@@ -1,0 +1,22 @@
+{
+  "rust-analyzer.server.extraEnv": {
+    "LD_LIBRARY_PATH": ":/usr/local/lib",
+    "LDFLAGS": "-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+    "DYLD_FALLBACK_LIBRARY_PATH": "/Library/Developer/CommandLineTools/usr/lib/"
+  },
+  "rust-analyzer.check.extraEnv": {
+    "LD_LIBRARY_PATH": ":/usr/local/lib",
+    "LDFLAGS": "-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+    "DYLD_FALLBACK_LIBRARY_PATH": "/Library/Developer/CommandLineTools/usr/lib/"
+  },
+  "rust-analyzer.cargo.extraEnv": {
+    "LD_LIBRARY_PATH": ":/usr/local/lib",
+    "LDFLAGS": "-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+    "DYLD_FALLBACK_LIBRARY_PATH": "/Library/Developer/CommandLineTools/usr/lib/"
+  },
+  "rust-analyzer.runnables.extraEnv": {
+    "LD_LIBRARY_PATH": ":/usr/local/lib",
+    "LDFLAGS": "-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+    "DYLD_FALLBACK_LIBRARY_PATH": "/Library/Developer/CommandLineTools/usr/lib/"
+  }
+}
