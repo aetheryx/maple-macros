@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.90"
 opencv = "0.93.3"
+core-foundation = { version = "0.9.3", features = ["mac_os_10_8_features"] }
+core-graphics = { version = "0.22.3", features = ["highsierra"] }
